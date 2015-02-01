@@ -14,11 +14,14 @@ angular
     'ngAnimate',
     'ngSanitize',
     'ngTouch',
+    'ngRoute',
 
     'cfp.hotkeys',
     'restangular',
     'ui.keypress',
-    'ui.router'
+    'ui.router',
+    
+    'testModule'
   ]);
 
 

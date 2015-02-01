@@ -28,41 +28,8 @@
 
     
     <!-- Application content: Start -->
-    <h1>TMB Maps App</h1>
-    
-    <div class="row">
-      <div class="small-12 small-centered medium-10 medium-centered columns panel radius">
-        <h1>Yo Foundation 5!</h1>
-        <ul>
-          <li>Sass compiling (Ruby or Node/Libsass)</li>
-          <li>Jade templating engine (option)</li>
-          <li>Publishing to dist directory</li>
-          <li>Server with LiveReload</li>
-          <li>JSHint</li>
-          <li>Grunt Bower install</li>
-          <li>Imagemin</li>
-          <li>Font Awesome (option)</li>
-        </ul>
-        <h1>Grunt tasks:</h1>
-        <ul>
-          <li>'grunt' - watching (Sass, Server on 127.0.0.1:9000 with LiveReload)</li>
-          <li>'grunt compile-sass' - Sass</li>
-          <li>'grunt compile-jade' - Jade</li>
-          <li>'grunt validate-js' - JSHint</li>
-          <li>'grunt bower-install' - injecting bower libraries</li>
-          <li>'grunt publish' - dist directory</li>
-          <li>'grunt server-dist' - server on 127.0.0.1:9001 - dist directory (preview only)</li>
-        </ul>
-        <h2 class="text-right">
-          <a href="https://github.com/juliancwirko/generator-zf5"><i class="fa fa-github"></i></a>
-        </h2>
-      </div>
-    </div>
-    
-    <p>Nothing here {{'yet' + '!'}}</p>
-    <p>1 + 2 = {{ 1 + 2 }}</p>
-
-    
+    <p>TMB Maps</p>
+    <div ng-view></div>
     <!-- Application content: End -->
     
     
@@ -84,6 +51,7 @@
     <script src="bower_components/angular-progress-arc/angular-progress-arc.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-translate/angular-translate.js"></script>
     <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
@@ -106,6 +74,12 @@
     <script src="modules/app.js"></script>
     <script src="modules/routes.js"></script>
    
+    <script src="modules/test/_module.js"></script>
+    <script src="modules/test/_routes.js"></script>
+    <script src="modules/test/controllers/testCtlr.js"></script>
+    
+    
+    
     <!-- endbuild -->
 </body>
 
