@@ -1,19 +1,8 @@
-= OciWebPOS: Technical Documentation
-aTec - SEPTI - Tecnologies Comercials
+= TMPMaps 2.0.0
+aTec - SEPTI - TCCI
 include::basics.ad[]
 
 // Refs
-:ocicommerce-app-des-ref: http://lxapldes3.xarxa.interna:8080/OciCommerce/
-:ocicommerce-app-int-ref: http://lxaplint3.xarxa.interna:8080/OciCommerce/
-:asciidoc-ref: http://asciidoc.org
-:asciidoc-dl-ref: http://sourceforge.net/projects/asciidoc/files/latest/download
-:asciidoc-editor-ref: http://asciidoc.org/#_editor_support
-:asciidoc-faq-ref: http://asciidoc.org/faq.html
-:asciidoc-guide-ref: http://asciidoc.org/userguide.html
-:asciidoc-install-ref: http://asciidoc.org/INSTALL.html
-:asciidoc-list-ref: http://groups.google.com/group/asciidoc
-:asciidoctor-ref: http://asciidoctor.org/
-:asciidoctor-gem-ref: https://rubygems.org/gems/asciidoctor
 :install-ref: http://asciidoctor.org/docs/install-toolchain/
 :fopdf-doc-ref: https://github.com/mojavelinux/asciidoctor-fopdf/blob/master/README.adoc
 :user-ref: http://asciidoctor.org/docs/user-manual
@@ -28,7 +17,7 @@ include::basics.ad[]
 Això és un comentari
 ////
 
-This document explains how to set up and run the OciWebPOS application based on a Single Page Web App arquitecture stack.
+This document explains how to set up and run the TMPMaps application based on a Single Page Web App arquitecture stack.
 
 == Single Page Web App Stack Specs
 
