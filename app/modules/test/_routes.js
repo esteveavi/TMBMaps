@@ -8,7 +8,7 @@ testModule.config(['$routeProvider',
     $routeProvider.
       when('/test', {
         templateUrl: 'modules/test/views/test.html',
-        controller: 'testCtlr'
+        controller: 'testCtrl'
       }).
       otherwise({
         redirectTo: '/'
