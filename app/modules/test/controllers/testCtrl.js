@@ -18,11 +18,7 @@ testModule.controller('testCtrl', function ($scope, $compile) {
     };
     var map = init();
     var template = "<div><span>{{halo}}</span><button ng-click='call()'>call</button></div>";
-    var popup = new OpenLayers.Popup.FramedCloud("popup", new OpenLayers.LonLat(103.83641, 1.35578), null, template, null, true);
-
-    map.addPopup(popup);
-    var pp = angular.element(document.querySelector('#popup'));
-    $compile(pp)($scope);
+    
     
     
 });
@@ -30,14 +26,17 @@ testModule.controller('testCtrl', function ($scope, $compile) {
 
 
 function init() {
-    var map = new OpenLayers.Map('map', {
-        projection: new OpenLayers.Projection("EPSG:4326"),
-        displayProjection: new OpenLayers.Projection("EPSG:4326"),
-        layers: [
-        new OpenLayers.Layer.OSM()]
+    var map = new ol.Map({
+    target: 'map',
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.MapQuest({layer: 'sat'})
+      })
+    ],
+    view: new ol.View({
+      center: ol.proj.transform([37.41, 8.82], 'EPSG:4326', 'EPSG:3857'),
+      zoom: 4
+    })
     });
-    if (!map.getCenter()) {
-        map.zoomToMaxExtent();
-    }
     return map;
 }
