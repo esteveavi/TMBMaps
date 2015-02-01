@@ -1,0 +1,56 @@
+{
+  "title": "Scripts",
+  "data": [{
+    "name": "controllers",
+    "desc": "Controladors que tenen una vista associada",
+    "children": [{}]
+  }, {
+    "name": "directives",
+    "desc": "Components a reutilitzar a diferents llocs de l'aplicació",
+    "children": [{
+      "name": "keypad",
+      "desc": "Teclat numèric tradicional"
+    }, {
+      "name": "moneyKeypad",
+      "desc": "Teclat d'introducció per valors monedes"
+    }, {
+      "name": "product",
+      "desc": "Visor nom, foto, descripció i preu"
+    }, {
+      "name": "status",
+      "desc": "marcador online - offline"
+    }, {
+      "name": "botons",
+      "desc": "diferents tipus de botons que es vagin repetint a tota la interfície",
+      "children": [{
+        "name": "edit"
+      }, {
+        "name": "save"
+      }, {
+        "name": "delete"
+      }]
+    }, {
+      "name": "progress",
+      "desc": "estat de transferència de dades"
+    }, {
+      "name": "user",
+      "desc": "imatge, tipus de perfil, nom"
+    }]
+  }, {
+    "name": "services",
+    "desc": "Scripts que no tenen un model o vista associats i que són transversals",
+    "children": [{
+      "name": "Flash",
+      "desc": " "
+    }, {
+      "name": "Session",
+      "desc": " "
+    }]
+  }, {
+    "name": "models",
+    "desc": "Models de dades amb les operacions CRUD integrades",
+    "children": [{
+      "name": ""
+    }]
+  }]
+}

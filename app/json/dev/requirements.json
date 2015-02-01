@@ -1,0 +1,159 @@
+{
+  "title": "Requeriments",
+  "data": [{
+      "name": "accions",
+      "desc": "",
+      "children": [{
+        "name": "venda",
+        "desc": "",
+        "children": [{
+          "name": "històric",
+          "desc": ""
+        }, {
+          "name": "CRUD",
+          "desc": ""
+        }, {
+          "name": "lectura codis",
+          "desc": ""
+        }, {
+          "name": "packs de producte",
+          "desc": ""
+        }, {
+          "name": "pagaments totals o parcials",
+          "desc": ""
+        }]
+      }, {
+        "name": "catàleg",
+        "desc": "",
+        "children": [{
+          "name": "productes i categories",
+          "desc": ""
+        }, {
+          "name": "CRUD",
+          "desc": ""
+        }, {
+          "name": "Imatge associada a cadascun",
+          "desc": ""
+        }]
+      }, {
+        "name": "liquidació",
+        "desc": "",
+        "children": [{
+          "name": "obertura servei de venda",
+          "desc": "què és?"
+        }, {
+          "name": "generació i exportació",
+          "desc": ""
+        }]
+      }, {
+        "name": "control d'estoc",
+        "desc": "",
+        "children": [{
+          "name": "location related",
+          "desc": ""
+        }]
+      }, {
+        "name": "bescanvis",
+        "desc": ""
+      }, {
+        "name": "validació o consum tiquets des de TPV",
+        "desc": "",
+        "children": [{
+          "name": "location related",
+          "desc": ""
+        }]
+      }]
+    }, {
+      "name": "login",
+      "desc": "",
+      "children": [{
+        "name": "timeout bloqueig",
+        "desc": ""
+      }, {
+        "name": "usuaris multirol",
+        "desc": "Recuperar des de l'api un array amb totes les accions permeses"
+      }, {
+        "name": "usuaris concurrents",
+        "desc": ""
+      }]
+    }, {
+      "name": "rols",
+      "desc": "",
+      "children": [{
+        "name": "admin",
+        "desc": "",
+        "children": [{
+          "name": "Accés total",
+          "desc": ""
+        }, {
+          "name": "Gestió dades config",
+          "desc": ""
+        }]
+      }, {
+        "name": "explotació",
+        "desc": "",
+        "children": [{
+          "name": "edició i consulta de dades 'explotació'",
+          "desc": ""
+        }]
+      }, {
+        "name": "gestió",
+        "desc": "",
+        "children": [{
+          "name": "edició i consulta de dades 'gestió'",
+          "desc": ""
+        }]
+      }, {
+        "name": "venedor",
+        "desc": "",
+        "children": [{
+          "name": "només processos de venda",
+          "desc": ""
+        }]
+      }, {
+        "name": "consulta",
+        "desc": "",
+        "children": [{
+          "name": "només lectura de certes parts",
+          "desc": ""
+        }]
+      }]
+    }, {
+      "name": "header/footer",
+      "desc": "",
+      "children": [{
+        "name": "menú superior",
+        "desc": ""
+      }, {
+        "name": "flag online / offline",
+        "desc": ""
+      }, {
+        "name": "progrés enviament de dades",
+        "desc": ""
+      }]
+    }, {
+      "name": "funcionalitats",
+      "desc": "",
+      "children": [{
+        "name": "multiprinter",
+        "desc": ""
+      }, {
+        "name": "consulta propostes en temps de venda",
+        "desc": "split screen?"
+      }, {
+        "name": "mode offline",
+        "desc": "local storage. mirar plugins de sync"
+      }, {
+        "name": "responsive",
+        "desc": ""
+      }, {
+        "name": "export XLS i PDF",
+        "desc": ""
+      }, {
+        "name": "telecomandament amb altres equips",
+        "desc": ""
+      }]
+    }
+
+  ]
+}

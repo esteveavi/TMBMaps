@@ -1,0 +1,16 @@
+[{
+  "title": "T10",
+  "desc": "10 viatges integrats",
+  "img": "images/yeoman.png",
+  "tags": "integrat, multipersonal"
+}, {
+  "title": "T50/30",
+  "desc": "50 viatges integrats en 30 dies",
+  "img": "images/yeoman.png",
+  "tags": "integrat, unipersonal"
+}, {
+  "title": "Bitllet senzill",
+  "desc": "1 viatge",
+  "img": "images/yeoman.png",
+  "tags": "no integrat, unipersonal"
+}]

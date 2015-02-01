@@ -1,0 +1,98 @@
+{
+  "title": "Tests",
+  "data": [{
+    "name": "e2e",
+    "children": [{
+      "name": "routes",
+      "children": [{
+        "name": "__",
+        "class": "done"
+      }, {
+        "name": "home",
+        "class": "done"
+      }, {
+        "name": "sale.new",
+        "class": "done"
+      }, {
+        "name": "change.new",
+        "class": "done"
+      }, {
+        "name": "validation.new",
+        "class": "done"
+      }, {
+        "name": "saleService.new",
+        "class": "done"
+      }, {
+        "name": "stock.new",
+        "class": "done"
+      }, {
+        "name": "config.new",
+        "class": "done"
+      }, {
+        "name": "NOT test",
+        "class": "done"
+      }]
+    }, {
+      "name": "hotkeys",
+      "children": [{
+        "name": "sale.new",
+        "class": "done"
+      }, {
+        "name": "change.new",
+        "class": "done"
+      }, {
+        "name": "validation.new",
+        "class": "done"
+      }, {
+        "name": "saleService.new",
+        "class": "done"
+      }, {
+        "name": "stock.new",
+        "class": "done"
+      }]
+    }]
+  }, {
+    "name": "unit",
+    "children": [{
+      "name": "controllers",
+      "children": [{
+        "name": "dev",
+        "class": "done"
+      }, {
+        "name": "main"
+      }, {
+        "name": "navbar"
+      }, {
+        "name": "statusbar"
+      }, {
+        "name": "test",
+        "class": "done"
+      }]
+    }, {
+      "name": "directives",
+      "children": [{
+        "name": "money-keypad-btn"
+      }, {
+        "name": "money-keypad"
+      }, {
+        "name": "product"
+      }, {
+        "name": "status-icon"
+      }, {
+        "name": "tree"
+      }]
+    }, {
+      "name": "filters",
+      "children": [{
+        "name": "xml"
+      }]
+    }, {
+      "name": "services",
+      "children": [{
+        "name": "flash"
+      }, {
+        "name": "printer"
+      }]
+    }]
+  }]
+}

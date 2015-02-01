@@ -1,0 +1,104 @@
+= OciWebPOS: Technical Documentation
+aTec - SEPTI - Tecnologies Comercials
+include::basics.ad[]
+
+// Refs
+:ocicommerce-app-des-ref: http://lxapldes3.xarxa.interna:8080/OciCommerce/
+:ocicommerce-app-int-ref: http://lxaplint3.xarxa.interna:8080/OciCommerce/
+:asciidoc-ref: http://asciidoc.org
+:asciidoc-dl-ref: http://sourceforge.net/projects/asciidoc/files/latest/download
+:asciidoc-editor-ref: http://asciidoc.org/#_editor_support
+:asciidoc-faq-ref: http://asciidoc.org/faq.html
+:asciidoc-guide-ref: http://asciidoc.org/userguide.html
+:asciidoc-install-ref: http://asciidoc.org/INSTALL.html
+:asciidoc-list-ref: http://groups.google.com/group/asciidoc
+:asciidoctor-ref: http://asciidoctor.org/
+:asciidoctor-gem-ref: https://rubygems.org/gems/asciidoctor
+:install-ref: http://asciidoctor.org/docs/install-toolchain/
+:fopdf-doc-ref: https://github.com/mojavelinux/asciidoctor-fopdf/blob/master/README.adoc
+:user-ref: http://asciidoctor.org/docs/user-manual
+:docs-ref: http://asciidoctor.org/docs
+:editing-ref: http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/
+:gist-ref: http://gist.github.com
+:publican-ref: https://fedorahosted.org/publican
+:quick-ref: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+:what-asciidoc-ref: http://asciidoctor.org/docs/what-is-asciidoc-why-use-it
+
+////
+Això és un comentari
+////
+
+This document explains how to set up and run the OciWebPOS application based on a Single Page Web App arquitecture stack.
+
+== Single Page Web App Stack Specs
+
+* *Yeaoman/yo*: Project rapid scaffolding
+* *Grunt*: The Build System is used to build, preview and test your projec
+* *Bower*: The Package Manager is used for dependency management, so that you no longer have to manually download and manage your scripts. Bower and npm are two popular options.
+* *AngularJS*: is an open-source web application framework, maintained by Google and community, that assists with creating single-page applications, one-page web applications that only require HTML, CSS, and JavaScript on the client side. Its goal is to augment web applications with model–view–controller (MVC) capability, in an effort to make both development and testing easier.
+Angular uses the following tools additionaly:
+** Unit Testing
+** EndToEnd Testing:
+*** Protractor: Protractor is a Node.js program, and runs end to end tests that are also written in JavaScript and run with node. So Protractor uses:
+**** Node.js: as the execution environment
+**** Karma: Test runner
+**** PhantomJS: Web browser for testing simution
+**** WebDriver: to control browser and simulate user interaction
+**** Jasmine: for text syntax
+
+
+=== Install Development environment
+
+1. *Install Node.js*
+2. Use *npm* (Node Package Manager: npm is the package manager for Node.js and comes bundled with it) to install the rest of the requiered software.
+3. Bower and Grunt comes with default Node installation
+4. Install Ruby (rubyinstaller)
+5. Install Compass (gem install compass)
+
+=== Build the Web App
+
+Install project library dependencies (only the first time):
+
+----
+npm install or npm update
+bower install
+----
+
+
+
+Build the production ready Web App:
+
+----
+grunt 
+----
+
+Or, the following command if Ruby and Compass not installed
+
+
+
+Preview an app you have generated (with Livereload).
+----
+grunt serve
+----
+
+Run the unit tests for an app.
+----
+grunt test
+----
+
+
+
+Generate and run documentation
+----
+grunt docs
+----
+
+Generate documentation
+----
+grunt docular
+----
+
+Run the documentation server
+----
+grunt docular-server
+----

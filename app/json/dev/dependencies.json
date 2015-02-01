@@ -1,0 +1,59 @@
+{
+  "title": "Dependències",
+  "data": [{
+    "name": "Bower",
+    "children": [{
+      "name": "Font awesome",
+      "desc": "icones"
+    }, {
+      "name": "UI router",
+      "desc": "gestor URL"
+    }, {
+      "name": "Angular UI bootstrap",
+      "desc": "directives"
+    }, {
+      "name": "Restangular",
+      "desc": "interacció API. No tan complet com Breeze",
+      "class": "done"
+    }, {
+      "name": "Breeze",
+      "desc": "Entity manager"
+    }, {
+      "name": "Angular local storage",
+      "desc": "ús de localStorage del navegador",
+      "url": "http://gregpike.net/demos/angular-local-storage/demo/demo.html",
+      "class": "done"
+    }, {
+      "name": "x2js",
+      "desc": "Conversor de json a xml per a impressió",
+      "url": "https://code.google.com/p/x2js"
+    }, {
+      "name": "Angular translate",
+      "desc": "Centralització (i traducció) dels missatges de l'app",
+      "url": "http://angular-translate.github.io"
+    }, {
+      "name": "underscore",
+      "desc": "Tractament d'arrays i objectes",
+      "url": "http://underscorejs.org/"
+    }, {
+      "name": "angular i18n",
+      "desc": "Definició de locales, per a formats, dates, etc",
+      "url": "https://github.com/angular/bower-angular-i18n"
+    }, {
+      "name": "Angular Hotkeys",
+      "desc": "Callbacks a través de hotkeys",
+      "url": "http://chieffancypants.github.io/angular-hotkeys/"
+    }]
+  }, {
+    "name": "npm",
+    "children": [{
+      "name": "protractor",
+      "desc": "e2e testing",
+      "url": "http://thejackalofjavascript.com/end-to-end-testing-with-protractor/"
+    }, {
+      "name": "angular constant",
+      "desc": "inserció de variables per a diferents entorns de proves",
+      "url": "https://github.com/werk85/grunt-ng-constant"
+    }]
+  }]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Views",
+  "data": [{
+    "name": "commons",
+    "desc": "elements que comparteixen diferents seccions"
+  }, {
+    "name": "dev",
+    "desc": "estructura de desenvolupament",
+    "children": [{
+      "name": "_holder",
+      "desc": "contenidor secció"
+    }, {
+      "name": "dependencies",
+      "desc": "llibreries necessàries"
+    }, {
+      "name": "requirements",
+      "desc": "requeriments del projecte"
+    }, {
+      "name": "views",
+      "desc": "estructura de l'aplicació"
+    }, {
+      "name": "scripts",
+      "desc": "estructura de l'aplicació"
+    }]
+  }, {
+    "name": "main",
+    "desc": "pàgina inicial"
+  }]
+}

@@ -1,0 +1,10 @@
+:toc2:
+:toclevels: 5
+:max-width: 300
+:toc-title: Tabla de contenidos
+:experimental:
+:mdash: &#8212;
+:language: asciidoc
+:theme: html5
+:source-highlighter: highlightjs
+:icons: font
