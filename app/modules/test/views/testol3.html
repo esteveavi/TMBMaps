@@ -1,0 +1,28 @@
+<h1>Test View</h1>
+
+<h2>Test Openlayers3</h2>
+
+  <style>
+    .map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+
+
+<!-- Test Center -->
+  <openlayers ol-center="london" height="400"></openlayers>
+    <h1>Center map example</h1>
+    <form>
+        Latitude : <input type="number" step="any" ng-model="london.lat" />
+        Longitude : <input type="number" step="any" ng-model="london.lon" />
+        Zoom : <input type="number" step="any" ng-model="london.zoom" />
+    </form>
+    <h2>Center object</h2>
+    <pre>{{ london | json }}</pre>
+
+<!-- Test basic Openlayers -->
+<h4>Basic Example</h4>
+<openlayers width="100%" height="500px"></openlayers>
+
+

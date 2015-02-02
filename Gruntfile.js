@@ -15,6 +15,9 @@ module.exports = function(grunt) {
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
+    
+    //Enable html5 mode in angular
+    //var modRewrite = require('connect-modrewrite');
 
   // Configurable paths for the application
   var appConfig = {
@@ -107,6 +110,7 @@ module.exports = function(grunt) {
           open: true,
           middleware: function(connect) {
             return [
+             // modRewrite(['!\\.html|\\.js|\\.svg|\\.css|\\.png$ /index.html [L]']),
               connect.static('.tmp'),
               connect().use(
                 '/bower_components',

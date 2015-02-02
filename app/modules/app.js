@@ -21,6 +21,8 @@ angular
     'ui.keypress',
     'ui.router',
     
+    'openlayers-directive',
+    
     'testModule'
   ]);
 
